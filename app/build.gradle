@@ -26,13 +26,16 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    //layout
+    implementation 'com.android.support:design:27.1.+'
+
     //recycleview
-    compile 'com.android.support:recyclerview-v7:27.1.+'
+    implementation 'com.android.support:recyclerview-v7:27.1.+'
 
     //CARREGAR IMAGENS REMOTAS
-    compile 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 
     //CONEXÃO REMOTA E PARSER JSON
-    compile 'com.loopj.android:android-async-http:1.4.9'
-    compile 'com.google.code.gson:gson:2.7'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.google.code.gson:gson:2.7'
 }
